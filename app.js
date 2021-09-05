@@ -26,4 +26,4 @@ app.get('/', (req, res) => {
     res.send("Welcome!");
 });
 
-export { app as default, port };
+export { app as default, mongoose, port };
